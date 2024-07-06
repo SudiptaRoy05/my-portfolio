@@ -156,3 +156,25 @@ main,section{
     box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+
+
+/* resume................................. */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-title{
+    font-size: 25px;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-download-container{
+    margin-top: 50px;
+}

@@ -212,7 +212,41 @@ footer input[type="text"] , footer textarea{
 
 
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container{
+
+    nav{
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    nav ul{
+        padding: 0;
+    }
+    .header{background-image: none;}
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0px 20px;
+        /* font-size: 20px; */
+        
+    }
+
+    .banner-profile-pic{
+        /* margin-left: -104px; */
+        width: 100%;
+    }
+    .about{
+        padding: 20px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .about-item{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .skills-container, 
+    .resume-container{
         flex-direction: column;
         padding: 0px 20px;
 
@@ -224,5 +258,5 @@ footer input[type="text"] , footer textarea{
     .footer-column{
         width: 89%;
     }
-    
+  
 }

@@ -202,3 +202,27 @@ footer input[type="text"] , footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
 }
+
+
+
+/* responsive area  */
+.hide {
+    display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container{
+        flex-direction: column;
+        padding: 0px 20px;
+
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 89%;
+    }
+    
+}

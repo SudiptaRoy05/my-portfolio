@@ -55,7 +55,7 @@
 /* ........................ */
 
 .header{
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -65,7 +65,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 51px 226px;
+    padding: 51px 226px;
 }
 
 .nav-title{

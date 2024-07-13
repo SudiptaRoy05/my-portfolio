@@ -206,9 +206,6 @@ footer input[type="text"] , footer textarea{
 
 
 /* responsive area  */
-.hide {
-    display: none;
-}
 
 
 @media screen and (max-width: 576px) {
